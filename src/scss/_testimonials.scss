@@ -1,0 +1,31 @@
+.testi{
+	background-image: url("../../dist/images/index/section-bg-5.jpg");
+	padding: $secPadding;
+	@extend .bg-img;
+	position: relative;
+	.testi-con{
+		i{
+			z-index: 0;
+			font-size: 150px;
+		}
+		h4{
+			font-size: 20px;
+		}
+		hr{
+			margin-bottom: 64px;
+		}
+		img{
+			position: absolute;
+			margin: 0 auto;
+			left: 0;
+			right: 0;
+			top: 45%;
+		}
+	}
+	@media (min-width:0px) and (max-width: 992px){
+		padding: 80px 0;
+		.testi-con{
+			width: 80vw !important;
+		}
+	}
+}

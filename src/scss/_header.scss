@@ -1,0 +1,26 @@
+.header-home{
+	background-image: url('../../dist/images/index/section-bg-1.jpg');
+	@extend .bg-img;
+	height: 100vh;
+  
+	.table{
+		  display: table;
+  		height: calc(100vh - 100px);
+  		width: calc(100vw - 17px);
+  		margin: 0;
+  		.table-cell{
+  			display: table-cell;
+  			vertical-align: middle;
+  			.row{
+          margin: 0;
+        }
+  		}
+		
+	}
+	
+	
+}
+nav.navbar{
+	height:80px;
+	padding-bottom: 25px;
+}

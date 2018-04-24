@@ -1,0 +1,251 @@
+/*------------Fonts Reset-------------*/
+html{
+	font-size: 14px;
+	// Extra small devices (portrait phones, less than 576px)
+	@media (min-width:0px) and (max-width: 575.98px) {font-size:10px;}
+
+	// Small devices (landscape phones, 576px and up)
+	@media (min-width: 576px) and (max-width: 767.98px) {font-size:12px;}
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) and (max-width: 991.98px) {font-size:12px; }
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) and (max-width: 1199.98px) {font-size:12px;  }
+
+	// Extra large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) {font-size:14px; }
+
+}
+
+h1,h2,h4,h6,button{
+	font-size: 6.25rem;
+	font-family: 'Raleway';
+	font-weight: bold;
+	margin: 0;
+}
+h2{
+	font-size: 2.142rem; /*30*/
+}
+h3{
+	font-size: 1.714rem;  /*24*/
+	font-family: 'Kaushan Script';
+	font-weight: normal;
+}
+h4{
+	font-size: 1.285rem; /*18*/
+}
+h5{
+	font-size: 1rem;  /*14*/
+	font-family: 'Kaushan Script';
+	font-weight: normal;
+}
+h6{
+	font-size: 0.857rem; /*12*/
+}
+p{
+	font-size: 1rem;  /*14*/
+	font-family: 'Lato';
+	font-weight: normal;
+	color: $pText;
+}
+hr{
+	border-color: $GrayLight;
+	width: 40px;
+	border-width: 2px;
+}
+.hr-center{
+	border-color: $GrayLight;
+	width: 40px;
+	border-width: 2px;
+	margin: 0 auto;
+}
+
+/*----------------------------------*/
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bg-img{
+	background-size: cover;
+	background-position: center;
+}
+/*---------MAIN BUTTON-----------*/
+.btn{
+	font-family: 'Raleway';
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 0;
+	padding: 15px 50px;
+	@include forShadow(0px 3px 10px 0px rgba(0, 0, 0, 0.15));
+}
+a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus ,.btn-primary:hover{
+	background:$secondary !important; 
+
+}
+/*---------for behind icons---------*/
+.bgo-icon{
+	position: absolute;
+	left: 0;
+    right: 0;
+	font-size: 100px;
+	z-index: -1;
+	@include opacity-deg(0.05);
+}
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+
+}
+/*----------overlay------------*/
+.overlay{
+	background: rgba(255,255,255,0.9);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+	animation: opacity-over 0.3s ease-in-out;
+}
+.over-hover{
+	position: relative;
+	@include transition-hover(all 0.5s ease-in-out);
+		&:hover .overlay{
+			display: flex;
+			justify-content:center;
+			align-items:center
+				
+		}
+		&:hover{
+			transform: scale(1.2,1.2);
+		}
+		i{
+			font-size: 25px;
+		}
+	}
+/*----------main width for title--------*/
+.width-50{
+	width: 50vw;
+	margin: 0 auto;
+}
+.width-50-p{
+	width: 50%;
+	margin: 0 auto;
+}
+.card-deck{
+	margin: 0;
+}
+.card{
+	margin: 0;
+	border:none;
+	img{
+		border-radius: 0;
+	}
+	
+}
+.m-75{
+	margin-bottom: 75px;
+}
+.card-body{
+	padding: 1.25rem 0 0 0;
+}
+/*----------small border----------*/
+.small-border{
+	border-bottom: 1px solid $secondary;
+	padding-bottom: 10px;
+}
+/*-----------NAVBAR----------*/
+nav{
+	i{
+		font-size: 25px;
+	}
+}
+.m-nav,.main-nav-link{
+    margin-top: 20px;
+ }
+ .main-navbar {
+	 display: none;
+	 position: relative;
+	 width: 0;
+	li{
+		a{
+			color: $GrayLight !important;
+			font-size: 16px;
+			margin-right: 15px;
+			font-weight: bold;
+			font-family: "Raleway";
+		}
+	}
+ }
+
+ /*------------Pageination--------------*/
+.page-num{
+ 	ul{
+ 		li{
+
+ 			.page-link{
+				@include transition-hover(all 0.5s ease-in-out);
+ 				color: $GrayLight;
+ 				font-size: 14px;
+ 				font-family: 'lato';
+ 				padding: 10px 20px;
+ 				border-radius: 0 !important;
+ 				border-left: 0;
+				.i-left{
+					padding-right: 8px;
+				}
+				.i-right{
+					padding-left: 8px;
+				}
+ 				
+ 				i{
+ 					font-size: 14px;
+ 				}
+ 				&:hover{
+ 					color: $GrayLight;
+ 					background: $secondary;
+ 				}
+ 				&:hover .p-n-span{
+					 display: inline-block;
+					 animation: opacity-over 0.3s ease-in-out;
+					 font-weight: bold;
+					 
+ 				}
+ 			}
+
+ 			&:first-child{
+				padding-right: 8px;
+ 			}
+ 			&:last-child{
+				padding-left: 8px;
+ 			}
+		.s-link{
+			border-left: 1px solid #dee2e6;
+			}
+ 		}
+ 	}
+ 	padding-bottom: 100px;
+ 	padding-top: 50px;
+ 	.page-active{
+ 		background: $secondary;
+ 	}
+ 	.p-n-span{
+ 		display: none;
+	 }
+	 @media (min-width:0px) and (max-width: 992px){
+		padding-bottom: 80px;
+		padding-top: 30px;
+	 }
+ }
+ /*-------------------------------------*/
+ @keyframes opacity-over{
+	 0%{
+		opacity: 0;
+	 }
+	 100%{
+		opacity: 1;
+	 }
+ }

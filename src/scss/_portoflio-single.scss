@@ -1,0 +1,62 @@
+.big-card{
+	.card{
+		margin: 0;
+	}
+	ul{
+		list-style: none;
+		h4{
+			padding-right: 30px;
+		}
+		li{
+			a{
+				color: $pText;
+				padding-right: 20px;
+				font-size: 18px;
+				&:hover{
+					color: $GrayLight;
+				}
+			}
+		}
+	}
+}
+.p-single-btn{
+	border-top: 1px solid $inputBorder;
+	border-bottom: 1px solid $inputBorder;
+	padding: 20px 0;
+	margin: 65px 0;
+	button{
+		@include forShadow(none);
+		border:1px solid $inputBorder;
+		border-radius: 0;
+		padding: 10px 20px;
+		.i-left{
+			padding-right: 8px;
+			
+
+		}
+		.i-right{
+			padding-left: 8px;
+
+		}
+		span{
+			display: none;
+		}
+		&:hover{
+			span{
+				display: inline-block;
+			}
+				background: $secondary;
+		}
+	}
+	.squars{
+		font-size: 30px;
+	}
+
+
+}
+.p-single-card{
+		padding-bottom: 130px;
+		@media (min-width:0px) and (max-width: 992px){
+			padding-bottom: 80px;
+		}
+	}

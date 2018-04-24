@@ -1,0 +1,130 @@
+.cart-table{
+	p{
+		margin-bottom: 0;
+	}
+	.table-head{
+		margin-right: 0;
+		margin-left: 0;
+		margin-top: 130px;
+		background: #f2f2f2;
+		padding: 15px 0;
+		h6{
+			font-size: 14px;
+		}
+	}
+	.table-content{
+
+		.qty{
+			border: 1px solid #eaeaea;
+    		padding: 10px 0px;
+    		margin-bottom: 0;
+		}
+		.c-price{
+			font-size: 16px;
+			color: $GrayLight;
+		}
+		i{
+			font-size: 18px;
+		}
+		hr{
+			border-color: $inputBorder;
+		}
+		.for-margin{
+			margin-bottom: 65px;
+		}
+	}
+	@media (min-width:0px) and (max-width: 767px){
+		.media-body{
+			padding-left:10px;
+		}
+
+	}
+}
+.update-cart{
+	.code{
+		margin-bottom: 65px;
+		button{
+			@include forShadow(none);
+			border-color: $secondary;
+		}
+		.code-input{
+			width: 300px;
+			border-radius: 0;
+			padding: 13px;
+			border-color: $inputBorder;
+
+			&:focus{
+				border-color: $inputBorder;
+			}
+		@media (min-width:0px) and (max-width: 767px){
+			width: 200px;
+		}
+			
+		}
+		@media (min-width:0px) and (max-width: 767px){
+			margin-bottom: 20px;
+		}
+		
+	}
+		@media (min-width:0px) and (max-width: 767px){
+			.update-mobile{
+				margin-bottom: 40px;
+			}
+		}
+
+	
+	.cart-form{
+		h3{
+			font-family: 'Raleway';
+			font-weight: bold;
+		}
+		form{
+			width: auto;
+			label{
+				font-family: 'Raleway';
+				font-size: 16px;
+				font-weight: bold;
+			}
+			input,select{
+				border-radius: 0;
+				border-color: $inputBorder;
+				padding: 13px;
+			@media (min-width:0px) and (max-width: 767px){
+				&:last-child{
+					margin-bottom: 40px;
+				}
+			}
+				
+			}
+			select{
+				padding: 0px;
+			}
+		}
+	}
+	p{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	hr{
+		border-color: $inputBorder;
+	}
+	.checkout{
+		@include forShadow(none);
+		margin-bottom: 130px;
+		@media (min-width:0px) and (max-width: 767px){
+			margin-bottom: 80px;
+		}
+		
+	}
+
+	@media (min-width:0px) and (max-width: 767px){
+
+		.code-mobile{
+			display: block !important;
+		}
+	}
+	
+
+	
+}
+

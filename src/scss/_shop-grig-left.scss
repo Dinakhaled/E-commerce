@@ -1,0 +1,60 @@
+.left-side{
+	padding-top:130px;
+	.filter-bar{
+		padding: 9px 15px;
+		background: #f2f2f2;
+		margin-bottom: 30px;
+		p,ul{
+			margin-bottom: 0;
+		}
+		ul{
+			align-items:center;
+			list-style: none;
+			li{
+				a{
+					color: $pText;
+					i{
+						font-size: 16px;
+					}
+				}
+			}
+			
+		}
+	}
+	.shop-grid-card{
+		h4{
+			font-size:16;
+			font-weight: normal;
+			color: $pText; 
+		}
+		i{
+			font-size: 16px;
+		}
+		p{
+			font-weight: bold;
+			color: $GrayLight;
+		}
+		.card-deck{
+			margin-bottom: 40px;
+		@media (min-width:0px) and (max-width: 992px){
+			margin-bottom: 0;
+		}
+			
+		}
+		.offer{
+			h6{
+				font-size: 14px;
+				background: $secondary;
+				padding: 10px 25px;
+				display: inline-block;
+				position: absolute;
+				top:20px;
+			}
+		}
+	}
+	@media (min-width:0px) and (max-width: 767px){
+		padding-top:80px; 
+		
+	}	
+	
+}

@@ -1,0 +1,16 @@
+.about-header{
+	background-image: url('../../dist/images/aboutUs/section-bg-9.jpg');
+	@extend .bg-img;
+	padding: $secPadding;
+	h5{
+		font-size:18px;
+		margin-bottom: 0;
+		color: $pText;
+	}
+	h1{
+		font-size:54px;
+	}
+}
+.p-spical{
+	padding-top: 0;
+}

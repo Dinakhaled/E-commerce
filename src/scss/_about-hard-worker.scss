@@ -1,0 +1,54 @@
+.hard-worker{
+	padding: $secPadding;
+	position: relative;
+	.cars-btn{
+
+		button{
+			background: transparent;
+			color: $GrayLight;
+			opacity: 1;
+			border:none;
+			width: auto;
+			font-size: 18px;
+			&:first-child{
+				margin-left: 50px;
+				@media (min-width:0px) and (max-width: 992px){
+					margin-left: 0px;
+					
+				}
+			}
+			&:last-child{
+				margin-right: 50px;
+				@media (min-width:0px) and (max-width: 992px){
+					margin-right: 0px;	
+				}
+			}
+			
+		}
+		.cars-s-btn{
+			border: 1px solid $inputBorder;
+			display: inline-block;
+			padding: 15px;
+			&:hover{
+				background: $secondary;
+			}
+		}
+	}
+	.over-hover{
+		ul{
+			list-style: none;
+			a{
+				color: $GrayLight;
+				i{
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.hide-mobile{
+		@media (min-width:0px) and (max-width: 767px){
+			display: none;
+		}
+		
+	}
+}

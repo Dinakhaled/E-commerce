@@ -1,0 +1,71 @@
+.portfolio-header{
+	background-image: url('../../dist/images/portfolio/section-bg-8.jpg');
+	@extend .bg-img;
+	background-position: top;
+	padding: $secPadding;
+	h5{
+		font-size:18px;
+		margin-bottom: 0;
+		color: $pText;
+	}
+	h1{
+		font-size:54px;
+	}
+	margin-bottom: 130px;
+	@media (min-width:0px) and (max-width: 992px){
+		padding: 80px 0;
+	}
+	
+}
+.category-prof{
+	ul{
+		display: flex;
+		list-style: none;
+		justify-content:center;
+		flex-wrap: wrap;
+		li{
+			a{
+				color: $GrayLight;
+				font-size: 18px;
+				font-family: 'Raleway';
+				font-weight: bold;
+				text-decoration: none;
+				padding-right: 65px;
+				&:hover span{
+					@extend .small-border;
+				}
+				&:hover{
+					color: $secondary;
+				}
+
+			}
+			.last-a{
+					padding-right: 0;
+				}
+			.active-category{
+				span{
+					@extend .small-border;
+				}
+				color: $secondary;
+			}
+			margin-bottom: 65px;
+			@media (min-width:0px) and (max-width: 992px){
+				margin-bottom: 10px;
+				a{
+				padding-right: 20px;
+					
+				}
+			}
+		}
+		@media (min-width:0px) and (max-width: 992px){
+			margin-bottom: 30px;
+		}
+
+	}
+	.view-more{
+		margin-top: 50px;
+		margin-bottom:100px; 
+	}
+	
+	
+}

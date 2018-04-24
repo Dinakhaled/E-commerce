@@ -1,0 +1,17 @@
+.progress-par-m{
+	background: $inputBorder;
+	width: 100%;
+	height: 5px;
+	.progress-par-inner{
+		background: $secondary;
+		width: 95%;
+		height: 5px;
+
+	}
+	.pro-90{
+		width: 90%;
+	}
+	.pro-85{
+		width: 85%;
+	}
+}

@@ -1,0 +1,60 @@
+.portoflio{
+	.portoflio-con{
+		width: 50vw;
+		margin: 0 auto;
+	}
+	.m-75{
+		margin-bottom: 75px;
+	}
+	padding: 130px 0px 0px 0px;
+	.cust-deck,.cust-card{
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+		border:none;
+	}
+	.row{
+		margin: 0;
+	}
+	.static{
+		padding: 66px 0;
+	}
+	.f-width{
+		width: 60vw;
+		margin: 0 auto;
+	}
+	.for-icon{
+		position: relative;
+		margin: 0 auto;
+		i{
+			@extend .bgo-icon;
+			z-index: 0;
+			font-size: 70px;
+			left: 0;
+   			top: -12px;
+  			right: 0;
+		}
+	}
+	.cust-card {
+		&:hover .overlay{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	@media (min-width:0px) and (max-width: 992px){
+		padding: 80px 0px 0px 0px;
+		.portoflio-con{
+			width: 80vw;
+		}
+		.for-icon{
+			margin-bottom: 40px;
+		}
+	}
+	
+}
+.category-prof{
+	.card{
+		padding: 8px;
+	}
+}

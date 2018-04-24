@@ -1,0 +1,31 @@
+footer{
+	h6{
+		font-size: 14px;
+	}
+	h5{
+		font-size: 10px;
+	}
+	span{
+		@extend .small-border;
+	}
+	background: $GrayLight;
+	padding: $secPadding;
+	color: #fff;
+	p{
+		color: #fff;
+	}
+	i{
+		font-size: 14px;
+	}
+	@media (min-width:0px) and (max-width: 992px){
+		padding: 80px 0;
+		.first-content,.second-content{
+			margin-bottom: 40px;
+		}
+	}
+	
+}
+.copy-rights{
+	background: $GrayDark;
+	color: #646565;
+}

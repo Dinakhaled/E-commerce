@@ -1,0 +1,44 @@
+.blog-header{
+	background-image: url('../../dist/images/blog/section-bg-11.jpg'); ;
+	@extend .bg-img;
+	padding: $secPadding;
+	h5{
+		font-size:18px;
+		margin-bottom: 0;
+		color: $pText;
+	}
+	h1{
+		font-size:54px;
+	}
+	margin-bottom: 130px;
+
+	@media (min-width:0px) and (max-width: 992px){
+		padding: 80px 0;
+	}
+
+
+}
+.blog-page-card{
+	.card {
+		.card-body{
+			position: relative;
+		}
+		
+		h6:hover {
+			@extend .small-border;
+			display: table;
+		}
+		
+	}
+	i{
+		font-size: 25px;
+	}	
+	margin-bottom: 65px;
+
+	@media (min-width:0px) and (max-width: 992px){
+		.card{
+			margin-bottom: 60px;
+		}
+		margin-bottom: 0;
+	}
+}

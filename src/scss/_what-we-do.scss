@@ -1,0 +1,47 @@
+.what-we{
+	padding: $secPadding;
+	.title-what{
+		width: 50vw;
+		margin: 0 auto;
+		p{
+			margin-bottom: 80px;
+		}
+	}
+	.what-content{
+		position: relative;
+		.bgo-icon{
+			@extend .bgo-icon;
+		}
+
+	}
+	.orang-icon{
+		font-size: 30px;
+	}
+	.m-row{
+		margin-bottom: 70px;
+	}
+	hr{
+		margin: 0 auto;
+	}
+	/*media*/
+	@media (min-width:0px) and (max-width: 992px) {
+		.row-media-m{
+			margin-bottom: 5px;
+		}
+		padding: 80px 0;
+		.title-what{
+			width: 80vw;
+			p{
+				margin-bottom: 60px;
+			}
+		}
+		.what-content{
+			p{
+				margin-bottom: 35px;
+			}
+			.bgo-icon{
+				font-size: 60px;
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+.shop-right{
+	position: relative;
+	.input-group{
+		margin-top: 130px;
+		@media (min-width:0px) and (max-width: 767px){
+			margin-top: 0px;
+		}
+		
+	}
+	.progress-par-m{
+		.progress-par-inner{
+			width: 60%;
+			margin: 0 auto;
+			background-color: $GrayLight;
+			&:before{
+				content: '';
+				padding: 2px;
+				border:1px solid #000;
+				position: relative;
+				top: -7px;
+				right: 5px;
+			}
+			&:after{
+				content: '';
+				padding: 2px;
+				border:1px solid #000;
+				position: relative;
+				top: -7px;
+				left: 143px;
+
+			}
+		}
+	}
+	.shop-slider{
+		h6:first-child{
+			position: relative;
+			left: 37px;
+		}
+		h6:last-child{
+			position: relative;
+			right: 37px;
+		}
+	}
+	.shop-list{
+		ul{
+			list-style-position: inside;
+			li{
+				a{
+					color: $pText;
+					font-size: 14px;
+					font-family: 'lato';
+					text-decoration: none;
+				}
+				
+			}
+		}
+		flex-wrap: wrap;
+	}
+}
+.shop-rate{
+	i{
+		font-size: 12px;
+	}
+}

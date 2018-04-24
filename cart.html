@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta name="keywords" content="Shopping,e-commerce,website,trade,sell,buy">
+    <title>Cart</title>
+    <link rel="stylesheet" href="dist/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="dist/css/base.css">
+  </head>
+  <body>
+
+      <!-- start container of nav -->
+      <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light shop-nav">
+            <a class="navbar-brand m-nav" href="#"><img src="dist/images/index/logo-dark.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+  
+                  <div class="main-navbar" id="main-navbar">
+  
+                      <li class="nav-item">
+                        <a class="nav-link m-nav" href="index.html">Home</a>
+                      </li>
+        
+                      
+        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link main-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Blog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="blog.html">Blog Main</a>
+                              <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                          </li>
+        
+                          <li class="nav-item dropdown">
+                              <a class="nav-link main-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="portfolio.html">Portfolio Main</a>
+                                <a class="dropdown-item" href="portfolio-single.html">Portfolio Single</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link m-nav" href="about-us.html">About Us</a>
+                              </li>
+        
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link main-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shop
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="shop-grid.html">Shop Grid</a>
+                                    <a class="dropdown-item" href="shop-list.html">Shop List</a>
+                                    <a class="dropdown-item" href="shop-item.html">Shop Item</a>
+                                    <a class="dropdown-item" href="cart.html">Cart</a>
+                                </li>
+        
+                                <li class="nav-item">
+                                    <a class="nav-link m-nav" href="contact.html">Contact</a>
+                                  </li>
+                                </div>
+  
+                                <li class="nav-item active">
+                                    <a id="toggle-icon" class="nav-link m-nav" href="#"><img src="dist/images/index/nav-icon.png" alt=""></a>
+                                  </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link m-nav pl-4" href="#"><i class="far fa-user"></i></a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link m-nav pl-4" href="#"><i class="far fa-heart"></i></a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link m-nav pl-4" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+  
+  
+                <li class="nav-item dropdown checkout">
+                        <a class="nav-link dropdown-toggle order-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          2
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right cart-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">
+                            
+                              <div class="media-p">
+                              <div class="media">
+                                <img class="mr-3" src="dist/images/shopGrid/widget-img-1.jpg" alt="Generic placeholder image">
+                                <div class="media-body">
+  
+                                  <div class="d-flex justify-content-between">
+                                    <p class="mt-0 mb-0 d-inline-block font-weight-bold">Geometric Wooden Vase</p>
+                                    <p class="d-inline-block mb-0"><i class="far fa-trash-alt"></i></p>
+                                  </div>
+  
+                                  <p class="mt-0 mb-0 font-weight-bold item-price">$ 50.00</p>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                       
+                          </a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">
+                            <div class="media-p">
+                              <div class="media">
+                                <img class="mr-3" src="dist/images/shopGrid/widget-img-2.jpg" alt="Generic placeholder image">
+                                <div class="media-body">
+  
+                                  <div class="d-flex justify-content-between">
+                                    <p class="mt-0 mb-0 d-inline-block font-weight-bold">Chrome Table Lamp</p>
+                                    <p class="d-inline-block mb-0"><i class="far fa-trash-alt"></i></p>
+                                  </div>
+  
+                                  <p class="mt-0 mb-0 font-weight-bold item-price">$ 630.00</p>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">
+                            <div class="media-p">
+                              <div class="d-flex justify-content-between">
+                                  <p class="mt-0 mb-0 d-inline-block font-weight-bold">Save Cart</p>
+                                  <p class="mt-0 mb-0 ml-auto mr-4 font-weight-bold item-price">Total</p>
+                                  <p class="mt-0 mb-0 font-weight-bold item-price">$ 630.00</p>
+                              </div>
+                            </div>
+                          </a>
+  
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">
+                            <div class="media-p">
+                              <div class="d-flex flex-wrap justify-content-between">
+                                  <button class="btn bg-primary">View Cart</button>
+                                  <button class="active-btn-shop btn bg-primary ">Checkout</button>
+  
+                              </div>
+                            </div>
+                          </a>
+  
+                        </div>
+                      </li>
+  
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+      <header class="shop-grig-header">
+        <div class="container">
+          <h5 class="top-s-title">What I want to buy</h5>
+          <h1 class="top-title">Shopping Cart</h1>
+        </div>
+      </header>
+      <!-- MAIN -->
+      <main>
+        
+      <!-- cart table -->
+      <section class="cart-table">
+        <div class="container">
+          
+
+            <div class="row table-head">
+              <!-- media -->
+            <div class="col-7 col-md-5">
+              <h6>product</h6>
+            </div>
+
+            <!-- qty -->
+            <div class="col-md-1 d-none d-md-inline-block">
+              <h6 class="text-center">Qty</h6>
+            </div>
+
+            <!-- ID -->
+            <div class="col-md-2 d-none d-md-inline-block">
+              <h6>ID nomber</h6>
+            </div>
+
+            <!-- price -->
+            <div class="col-5 col-md-1 ">
+              <h6>price</h6>
+            </div>
+
+            <!-- total -->
+            <div class="col-md-2 d-none d-md-inline-block">
+              <h6>subtotal</h6>
+            </div>
+
+            <!-- delete -->
+            <div class="col-md-1">
+             
+            </div>
+
+              
+            </div>
+            
+            <div class="table-content">
+            <div class="row mt-5 align-items-center">
+            <!-- media -->
+            <div class="col-5">
+              <div class="media-p">
+                    <div class="media">
+                      
+                      <img class="mr-3 img-fluid d-none d-md-inline-block" src="dist/images/cart/widget-img-1.jpg" alt="Generic placeholder image">
+                    <div class="media-body align-self-center">
+                      
+                      <h4 class="pb-2">Geometric Wooden Vase</h4>
+                    
+                      <p class="mb-0">Suspendisse maximus eget neque eget accumsan. Sed eu erat at erat lobortis volutpat.</p>
+                      
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- qty -->
+            <div class="col-2 col-md-1">
+          
+                <p class="text-center align-self-center qty">1</p>
+
+            </div>
+
+            <!-- ID -->
+            <div class="col-2 d-none d-md-inline-block">
+              <p>GWV-1345568721</p>
+            </div>
+
+            <!-- price -->
+            <div class="col-1 d-none d-md-inline-block">
+              <p class="c-price">$50.00</p>
+            </div>
+
+            <!-- total -->
+            <div class="col-3 col-md-2">
+              <p class="c-price font-weight-bold">$50.00</p>
+            </div>
+
+            <!-- delete -->
+            <div class="col-1">
+              <i class="far fa-trash-alt"></i>
+            </div>
+
+          </div>
+
+          <hr class="w-100 p-0 mt-5 mb-5">
+
+          <div class="table-content">
+            <div class="row mt-5 align-items-center">
+            <!-- media -->
+            <div class="col-5">
+              <div class="media-p">
+                    <div class="media">
+                      
+                      <img class="mr-3 img-fluid d-none d-md-inline-block" src="dist/images/cart/widget-img-2.jpg" alt="Generic placeholder image">
+                    <div class="media-body align-self-center">
+                      
+                      <h4 class="pb-2">Chrome Table Lamp</h4>
+                    
+                      <p class="mb-0">Nulla non est scelerisque, ullamcorper eros at, imperdiet neque. Quisque a sapien at odio.</p>
+                      
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- qty -->
+            <div class="col-2 col-md-1">
+          
+                <p class="text-center align-self-center qty">1</p>
+
+              
+            </div>
+
+            <!-- ID -->
+            <div class="col-2 d-none d-md-inline-block">
+              <p>CTL-5596771323</p>
+            </div>
+
+            <!-- price -->
+            <div class="col-1 d-none d-md-inline-block">
+              <p class="c-price">$630.00</p>
+            </div>
+
+            <!-- total -->
+            <div class="col-3 col-md-2">
+              <p class="c-price font-weight-bold">$630.00</p>
+            </div>
+
+            <!-- delete -->
+            <div class="col-1">
+              <i class="far fa-trash-alt"></i>
+            </div>
+
+          </div>
+
+          <hr class="w-100 p-0 mt-5 for-margin">
+
+        </div>
+
+        </div>
+      </section>
+
+      <!-- update cart -->
+      <section class="update-cart">
+        <div class="container">
+          <div class="d-flex justify-content-between code-mobile">
+            <div class="code">
+              <div class="input-group">
+                  
+                <div class="input-group-prepend ">
+                  <span class="input-group-text bg-transparent border-0 p-0" id="basic-addon1"><button class="btn btn-primary bg-secondary">Cupon Code</button></span>
+                </div>
+                <input type="text" class="form-control border-left-0 code-input" aria-label="Username" aria-describedby="basic-addon1">
+                
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-primary update-mobile">update cart</button>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-md-5">
+              <div class="cart-form">
+                <h3 class="mb-5"><span class="small-border">Cal</span>culator Shipping</h3>
+                <form>
+                  <div class="form-group mb-5">
+                    <label for="formGroupExampleInput">Country*</label>
+                    <select class="form-control input-lg">
+                      <option class="pt-4">Unated States  (USA)</option>
+                    </select>
+                  </div>
+                  <div class="form-group mb-5">
+                    <label for="formGroupExampleInput2">State / Province*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput2">Postcode / Zip</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-5 offset-md-2">
+              <div class="cart-form">
+                <h3 class="mb-5"><span class="small-border">Car</span>t Total</h3>
+                <div class="d-flex justify-content-between">
+                  <h4>Subtotal:</h4>
+                  <h4>$ 680.00</h4>
+                </div>
+                <hr class="w-100 mb-4 mt-4">
+                <div class="d-flex justify-content-between">
+                  <h4>Shipping and Handling:</h4>
+                  <p class="mb-0">Local Pickup</p>
+                </div>
+                <hr class="w-100 mb-4 mt-4">
+                <div class="d-flex justify-content-between">
+                  <h4>Order Total:</h4>
+                  <h4 class="text-secondary">$ 680.00</h4>
+                </div>
+                <hr class="w-100 mb-4 mt-4">
+
+                <button class="btn btn-primary bg-secondary border-0 mt-5 checkout">Proceed Chackout</button>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </section>
+
+      </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 col-12">
+            <article class="first-content">
+              <h4 class="mb-5"><span>Abo</span>ut Us</h4>
+              <p class="mb-4">Morbi eu purus eget tellus fringilla malesuada eget nec nisi. Etiam nec dolor porttitor, cursus elit quis, tristique erat.   Sed rhoncus molestie elit sit amet viverra. </p>
+              <div class="row">
+                <div class="col-1"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="col-11"><p class="info">90-120 Swanston St,Melbourne VIC 3000, Australia</p></div>
+              </div>
+              <div class="row">
+                <div class="col-1"><i class="fas fa-phone"></i></div>
+                <div class="col-11"><p class="info">+61 3 9559 9559 or +61 3 9669 9669</p></div>
+              </div>
+              <div class="row">
+                <div class="col-1"><i class="far fa-envelope"></i></div>
+                <div class="col-11"><p class="info">support@gtcreators.com</p></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4 col-12">
+            <div class="second-content">
+              <h4 class="mb-5"><span>Rec</span>ent News</h4>
+
+              <div class="row">
+                <div class="col-2 col-md-3"><img src="dist/images/index/img-9.jpg" class="mb-4 img-fluid" alt=""></div>
+                <div class="col-10 col-md-9">
+                  <h5>14/07/2016</h5>
+                  <h6>Ut molestie quam erat, non finibus erat</h6>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 col-md-3"><img src="dist/images/index/img-10.jpg" class="mb-4 img-fluid" alt=""></div>
+                <div class="col-10 col-md-9">
+                  <h5>14/07/2016</h5>
+                  <h6>Mauris vel est porta, viverra orci non</h6>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 col-md-3"><img src="dist/images/index/img-11.jpg" class="img-fluid" alt=""></div>
+                <div class="col-10 col-md-9">
+                  <h5>14/07/2016</h5>
+                  <h6>Duis nibh nisl, egestas non sapien volutpat</h6>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12">
+            <div class="third-content">
+              <h4 class="mb-5"><span>Our</span> Gallery</h4>
+              <div class="row mb-3">
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-1 (1).jpg" alt=""></div>
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-2 (1).jpg" alt=""></div>
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-3 (1).jpg" alt=""></div>
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-4 (1).jpg" alt=""></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-5.jpg" alt=""></div>
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-6.jpg" alt=""></div>
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-7.jpg" alt=""></div>
+                <div class="col-md-3 col-lg-3 col-3"><img class="img-fluid" src="dist/images/index/img-8.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+    <div class="copy-rights text-center pt-3 pb-3">&copy; 2018 Dina Khaled All Rights Reserved</div>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>    
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="dist/js/main.js"></script>
+  </body>
+</html>

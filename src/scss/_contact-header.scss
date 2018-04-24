@@ -1,0 +1,56 @@
+.contact-nav{
+	margin-bottom: 20px;
+}
+.contact-header{
+	background-image: url('../../dist/images/contact/section-bg-10.jpg'); ;
+	@extend .bg-img;
+	padding: $secPadding;
+	h5{
+		font-size:18px;
+		margin-bottom: 0;
+		color: $pText;
+	}
+	h1{
+		font-size:54px;
+	}
+
+}
+.orang-hr{
+	border-color: $secondary;
+}
+.con-m{
+	margin-bottom: 100px;
+}
+.con-p{
+	margin-bottom: 55px;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	input,textarea{
+		background: #fff;
+		
+	}
+	.my-form{
+		border-radius: 0;
+		border-color: $inputBorder;
+		&:focus{
+			border-color: $secondary;
+		}
+	}
+}
+.get-touch{
+	@media (min-width:0px) and (max-width: 992px){
+		width: 80vw !important;
+		padding-top: 50px;
+	}
+}
+.main-form-contact{
+	@media (min-width:0px) and (max-width: 992px){
+		width:80vw; 
+		input{
+			margin-bottom: 10px;
+		}
+		
+	}
+}
